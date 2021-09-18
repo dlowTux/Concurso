@@ -23,7 +23,7 @@ const ReloadVideo = () => {
 
     contenido.innerHTML = `
     <video controls autoplay id="conteo" class="video">
-                        <source src="img/video.mp4">
+                        <source src="img/Contador.mp4">
                     </video>`
     video = document.getElementById("conteo")
 
@@ -81,7 +81,7 @@ const CambiarTitulo = () => {
 const Cronometro = () => {
 
     const minu = 2
-    const segun = 29
+    const segun = 8
     crono = setInterval(() => {
         if (contador_s == 60) {
             contador_s = 0;
